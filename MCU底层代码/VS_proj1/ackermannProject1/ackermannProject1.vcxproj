@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2750F973-4620-4561-B8B8-95329986B41D}</ProjectGuid>
+    <BSP_ID>com.sysprogs.arm.stm32</BSP_ID>
+    <BSP_VERSION>2021.02</BSP_VERSION>
+    <InPlaceBSPSubdir />
+    <RelativeBSPPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>10.3.1/10.2.90/r1</ToolchainVersion>
+    <MCUPropertyListFile>$(ProjectDir)stm32.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>10.3.1/10.2.90/r1</ToolchainVersion>
+    <MCUPropertyListFile>$(ProjectDir)stm32.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\User;..\..\MiniBalance_COER;..\..\STM32F10x_FWLib\inc;..\..\MiniBalance_HARDWARE;..\..\SYSTEM;..\..\SYSTEM\delay;..\..\SYSTEM\sys;..\..\SYSTEM\usart;..\..\MiniBalance_HARDWARE\DMP;..\..\MiniBalance_HARDWARE\IIC;..\..\MiniBalance_HARDWARE\ENCODER;..\..\MiniBalance_HARDWARE\OLED;..\..\MiniBalance\show;..\..\MiniBalance_HARDWARE\LED;..\..\MiniBalance_HARDWARE\KEY;..\..\MiniBalance_HARDWARE\ADC;..\..\MiniBalance_HARDWARE\MOTOR;..\..\MiniBalance_HARDWARE\TIMER;..\..\MiniBalance_HARDWARE\EXTI;..\..\MiniBalance\DataScope_DP;..\..\MiniBalance\filter;..\..\MiniBalance_HARDWARE\STMFLASH;..\..\MiniBalance_HARDWARE\USARTX;..\..\MiniBalance_HARDWARE\NRF24L01;..\..\MiniBalance_HARDWARE\SPI;..\..\MiniBalance_HARDWARE\CAN;..\..\MiniBalance_HARDWARE\PS2;..\..\MiniBalance_HARDWARE\MPU9250;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>flash_layout;STM32F10X_ HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\User;..\..\MiniBalance_COER;..\..\STM32F10x_FWLib\inc;..\..\MiniBalance_HARDWARE;..\..\SYSTEM;..\..\SYSTEM\delay;..\..\SYSTEM\sys;..\..\SYSTEM\usart;..\..\MiniBalance_HARDWARE\DMP;..\..\MiniBalance_HARDWARE\IIC;..\..\MiniBalance_HARDWARE\ENCODER;..\..\MiniBalance_HARDWARE\OLED;..\..\MiniBalance\show;..\..\MiniBalance_HARDWARE\LED;..\..\MiniBalance_HARDWARE\KEY;..\..\MiniBalance_HARDWARE\ADC;..\..\MiniBalance_HARDWARE\MOTOR;..\..\MiniBalance_HARDWARE\TIMER;..\..\MiniBalance_HARDWARE\EXTI;..\..\MiniBalance\DataScope_DP;..\..\MiniBalance\filter;..\..\MiniBalance_HARDWARE\STMFLASH;..\..\MiniBalance_HARDWARE\USARTX;..\..\MiniBalance_HARDWARE\NRF24L01;..\..\MiniBalance_HARDWARE\SPI;..\..\MiniBalance_HARDWARE\CAN;..\..\MiniBalance_HARDWARE\PS2;..\..\MiniBalance_HARDWARE\MPU9250;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>flash_layout;STM32F10X_ HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\User\main.c" />
+    <ClCompile Include="..\..\User\stm32f10x_it.c" />
+    <ClCompile Include="..\..\User\system_stm32f10x.c" />
+    <ClCompile Include="..\..\MiniBalance_COER\core_cm3.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_can.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_cec.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_crc.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_dac.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\STM32F10x_FWLib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="..\..\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\LED\LED.C" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\KEY\key.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\OLED\oled.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\ADC\adc.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\TIMER\timer.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\MOTOR\motor.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\ENCODER\encoder.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\EXTI\exti.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\USARTX\usartx.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\CAN\can.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\PS2\pstwo.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\MPU9250\mpu9250.c" />
+    <ClCompile Include="..\..\MiniBalance_HARDWARE\IIC\myiic.c" />
+    <ClCompile Include="..\..\MiniBalance\CONTROL\control.c" />
+    <ClCompile Include="..\..\MiniBalance\filter\filter.c" />
+    <ClCompile Include="..\..\MiniBalance\show\show.c" />
+    <ClCompile Include="..\..\MiniBalance\DataScope_DP\DataScope_DP.C" />
+    <None Include="stm32.props" />
+    <ClCompile Include="$(BSP_ROOT)\STM32F1xxxx\StartupFiles\startup_stm32f103xe.c" />
+    <None Include="ackermannProject1-Debug.vgdbsettings" />
+    <None Include="ackermannProject1-Release.vgdbsettings" />
+    <None Include="stm32.xml" />
+  </ItemGroup>
+</Project>
