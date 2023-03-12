@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find qingzhou_nav)/launch/qingzhou_bringup.launch" />
+  	<include file="$(find qingzhou_nav)/launch/qingzhou_move_base.launch" />
+    <include file="$(find csi_cam_test)/launch/csi_cam_test.launch" />
+    <include file="$(find dispatcher)/launch/dispatcher.launch" />
+</launch>
