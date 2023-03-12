@@ -1,0 +1,10 @@
+Added Component: Designator=MP1584(MP1584EN_module)
+Added Pin To Net: NetName=GND Pin=MP1584-1
+Added Pin To Net: NetName=GND Pin=MP1584-2
+Added Pin To Net: NetName=VCC 7.4V Pin=MP1584-3
+Added Pin To Net: NetName=VCC 7.4V Pin=MP1584-4
+Added Pin To Net: NetName=VCC 5V Pin=MP1584-5
+Added Pin To Net: NetName=VCC 5V Pin=MP1584-6
+Added Pin To Net: NetName=GND Pin=MP1584-7
+Added Pin To Net: NetName=GND Pin=MP1584-8
+Added Member To Class: ClassName=Sheet1 Member=Component MP1584 MP1584EN_module

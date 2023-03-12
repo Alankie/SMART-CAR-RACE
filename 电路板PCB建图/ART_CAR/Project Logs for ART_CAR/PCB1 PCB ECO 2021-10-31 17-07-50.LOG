@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=PB7 Pin=Q6-1
+Removed Pin From Net: NetName=PB7 Pin=R33-1
+Change Component Comment : Designator=C19 Old Comment=10uF New Comment=220uF/16V
+Change Component Comment : Designator=C46 Old Comment=10uF New Comment=220uF/16V
+Change Component Comment : Designator=C14 Old Comment=C New Comment=0.1uF
+Change Component Comment : Designator=C17 Old Comment=C New Comment=0.1uF
+Change Component Comment : Designator=C23 Old Comment=C New Comment=0.01uF
+Change Component Comment : Designator=C28 Old Comment=C New Comment=0.1uF
+Change Component Comment : Designator=C30 Old Comment=C New Comment=0.1uF
+Change Component Comment : Designator=C51 Old Comment=C New Comment=0.1uF
+Change Component Comment : Designator=C54 Old Comment=C New Comment=0.1uF
+Change Component Comment : Designator=C21 Old Comment=C New Comment=4.7uF
+Change Component Comment : Designator=C22 Old Comment=C New Comment=4.7uF
+Change Component Comment : Designator=C33 Old Comment=C New Comment=4.7uF
+Change Component Comment : Designator=C34 Old Comment=C New Comment=4.7uF
+Change Component Comment : Designator=C16 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C18 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C29 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C31 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C32 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C45 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C47 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C52 Old Comment=C New Comment=10uF
+Change Component Comment : Designator=C53 Old Comment=C New Comment=22pF
+Change Component Comment : Designator=C55 Old Comment=C New Comment=22pF
+Change Component Comment : Designator=C24 Old Comment=C New Comment=47pF
+Change Component Comment : Designator=C36 Old Comment=C New Comment=47pF
+Change Component Comment : Designator=C1 Old Comment=C New Comment=104
+Change Component Comment : Designator=C2 Old Comment=C New Comment=104
+Change Component Comment : Designator=C3 Old Comment=C New Comment=104
+Change Component Comment : Designator=C4 Old Comment=C New Comment=104
+Change Component Comment : Designator=C5 Old Comment=C New Comment=104
+Change Component Comment : Designator=C6 Old Comment=C New Comment=104
+Change Component Comment : Designator=C7 Old Comment=C New Comment=104
+Change Component Comment : Designator=C8 Old Comment=C New Comment=104
+Change Component Comment : Designator=C9 Old Comment=C New Comment=104
+Change Component Comment : Designator=C10 Old Comment=C New Comment=104
+Change Component Comment : Designator=C11 Old Comment=C New Comment=104
+Change Component Comment : Designator=C12 Old Comment=C New Comment=104
+Change Component Comment : Designator=C13 Old Comment=C New Comment=104
+Change Component Comment : Designator=C27 Old Comment=C New Comment=1800pF
+Change Component Comment : Designator=C37 Old Comment=C New Comment=1800pF
+Change Component Comment : Designator=C35 Old Comment=C New Comment=C0.01uF
+Change Component Comment : Designator=L2 Old Comment=L New Comment=15mH 2A
+Change Component Comment : Designator=L1 Old Comment=L New Comment=15uH 2A
+Change Component Comment : Designator=R20 Old Comment=R New Comment=0
+Change Component Comment : Designator=R21 Old Comment=R New Comment=0
+Change Component Comment : Designator=R8 Old Comment=R New Comment=1.91K
+Change Component Comment : Designator=R18 Old Comment=R New Comment=1.91K
+Change Component Comment : Designator=R3 Old Comment=R New Comment=1K
+Change Component Comment : Designator=R6 Old Comment=R New Comment=4.7K
+Change Component Comment : Designator=R15 Old Comment=R New Comment=4.7K
+Change Component Comment : Designator=R5 Old Comment=R New Comment=10.2K
+Change Component Comment : Designator=R14 Old Comment=R New Comment=10.2K
+Change Component Comment : Designator=R2 Old Comment=R New Comment=10K
+Change Component Comment : Designator=R4 Old Comment=R New Comment=10K
+Change Component Comment : Designator=R30 Old Comment=R New Comment=10K
+Change Component Comment : Designator=R31 Old Comment=R New Comment=10K
+Change Component Comment : Designator=R32 Old Comment=R New Comment=10K
+Change Component Comment : Designator=R33 Old Comment=R New Comment=10K
+Change Component Comment : Designator=R7 Old Comment=R New Comment=21K
+Change Component Comment : Designator=R17 Old Comment=R New Comment=21K
+Change Component Comment : Designator=R22 Old Comment=R New Comment=330R
+Change Component Comment : Designator=R23 Old Comment=R New Comment=330R
+Change Component Comment : Designator=R24 Old Comment=R New Comment=330R
+Change Component Comment : Designator=R25 Old Comment=R New Comment=330R
+Added Pin To Net: NetName=NetQ6_1 Pin=Q6-1
+Added Pin To Net: NetName=NetQ6_1 Pin=R33-1
+Added Net: Name=NetQ6_1
+Added Member To Class: ClassName=Sheet1 Member=Component C36 47pF
+Added Member To Class: ClassName=Sheet1 Member=Component C53 22pF
+Added Member To Class: ClassName=Sheet1 Member=Component U2 FT232RL
+Added Room: Name=Sheet1
